@@ -6,6 +6,81 @@
   height: 40vmin;
   pointer-events: none;
 }
+.container{
+  background-color: white;
+  border-radius: 10px;
+  margin: 4rem;
+  color:  #156C97;
+  font-weight: bold;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.list-user{
+  border: 1px solid purple;
+  margin: 1rem;
+  display: flex;
+
+  /* align-items: center; */
+  flex-wrap: wrap row;
+
+}
+
+.list-info{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+.login{
+  background-color: #156C97;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ques{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.input_box{
+  margin-left: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 0.5rem;
+  margin-top: 1rem;
+
+}
+
+.pwd_box{
+  margin-left: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.btn-tag{
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.btn{
+  background-color: #1B93DF;
+  font-weight: bold;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+align-content: center;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
